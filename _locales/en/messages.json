@@ -1,0 +1,4 @@
+{
+  "ext_name": { "message": "Save as EML for Gmail" },
+  "ext_desc": { "message": "Save a message as a .eml file when you click \"Show Original.\" The file name of .eml is the date of the message." }
+}

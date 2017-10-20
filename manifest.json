@@ -1,0 +1,20 @@
+{
+  "default_locale": "en",
+  "name": "__MSG_ext_name__",
+  "version": "0.0.5.0",
+  "manifest_version": 2,
+  "short_name": "SaveAsEML",
+  "description": "__MSG_ext_desc__",
+  "permissions": [ "https://mail-attachment.googleusercontent.com/*" ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*&view=om&*"],
+      "js": ["save_as_eml.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "homepage_url": "http://www.330k.info/"
+}
